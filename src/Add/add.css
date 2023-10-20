@@ -1,0 +1,106 @@
+    .add--Main {
+        border: 2px solid rgba(5, 5, 5, 0.1);
+        margin-left: 10%;
+        background-color: rgb(243, 238, 238);
+        margin-top: 5%;
+         width: 80%;
+         height: 80vh;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+         position: relative;
+    }
+    .add--Main--Img {
+        position: absolute;
+        opacity: 0.1;
+        width: 50%;
+        height: 50%;
+
+
+    }
+    .add--Main---first--label {
+    width: 30%;
+    font-size: 2.5vh;
+    color: blueviolet;
+    cursor: pointer;
+    }
+    .add--Main--first {
+        border-bottom: 1px solid black;
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    ::-webkit-scrollbar {
+        width: 2rem;
+    }
+    ::-webkit-scrollbar-track {
+        background-color: aliceblue;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: gray;
+    }
+    .add--Main--firsts {
+        width: 100%;
+        height: 100%;
+        justify-content: space-evenly;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .dropdown--checkboxes {
+        display: flex;
+        flex-direction: column;
+    }
+    .dropdown--options {
+        display: flex;
+        flex-direction: column;
+    }
+    .dropdown--option--1 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .dropdown--option--1 {
+        font-size:2vh
+    }
+   
+    .dropdown {
+        width: 30%;
+    }
+    .dropdown input {
+        width: 10%;
+        accent-color: red;
+    }
+    .add--save--abort {
+        position: absolute;
+        right: 3.5%;
+        bottom: 4%;
+    }
+    .add--save--abort--buttons {
+        display: flex;
+        flex-direction: column;
+        width: 150%;
+        height: 150%;
+    }
+    .save--change  button{
+        margin-bottom: 10%;
+        width: 100%;
+        height: 7vh;
+        font-size: 2.5vh;
+        background-color: rgba(201, 198, 198, 0.137);
+        border-color: rgba(201, 198, 198, 0.137);
+        cursor: pointer;
+        outline: none;
+        border-radius: 15%;
+    }
+    .add--back--arrow {
+       
+            position: absolute;
+            width: 10%;
+            height: 80vh;
+    
+    }
+    .add--back--arrow img {
+        margin-top: 70%;
+        margin-left: 20%;
+        width: 40%;
+        height: 10%;
+        opacity: 0.05;
+    }

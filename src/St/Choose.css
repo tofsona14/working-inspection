@@ -1,0 +1,26 @@
+.Choose--main {
+    width: 99%;
+    height: 96vh;
+    display: block;
+    
+}
+.choose--second--first, .choose--second--second, .choose--second--third {
+    height: 10vh;
+    width: 100%;
+    
+}
+.choose--main--first img {
+    width: 40%;
+}
+.choose--main--second {
+        width: 40%;
+        height: 40%;
+        margin-left: 30%;
+}
+.choose--second--first button, .choose--second--second button, .choose--second--third button {
+    width: 100%;
+    height: 60%;
+    font-size: 4vh;
+    color: blueviolet;
+    cursor: pointer;
+}
